@@ -1,4 +1,4 @@
-
+@import url('reset.css');
 * {
 
     box-sizing: border-box;
@@ -52,6 +52,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 15px;
 }
 
 .banner {
@@ -60,15 +61,16 @@ main {
     justify-content: center;
     flex-direction: column;
     border: 1px;
-    /* height: 1440x;
-    width: 340px; */
+    gap: 40px;
     width: 1200px;
     height: 300px;
     border-radius: 24px;
-    padding: 28px 22px;
     font-size: 40px;
     background-color: #FFFFFF;
     background-image: url('../assets/images/banner_bg.svg');
+    background-size: 1300px;
+    background-position: center;
+    background-repeat: no-repeat; 
     a {
         display: flex;
         align-items: center;
@@ -82,7 +84,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 7px 32px;
-    height: 100px;
+    height: 50px;
     background-color: #000000;
     border-radius: 12px;
     font-size: 18px;
@@ -91,7 +93,6 @@ main {
 
 .cards {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
@@ -105,17 +106,16 @@ main {
     justify-content: space-between;
     flex-direction: column;
     background-color: #FFFFFF;
-    padding: 10px 24px;
+    padding: 15px 24px;
     width: 375px;
     height: 300px;
-    gap: 8px;
+    gap: 5px;
     border-radius: 24px;
     border: 1px;
     border-color: #808080;
     h2{
         font-weight: 400;
         font-size: 36px;
-        margin: 2px;
     }
 }
 .par-bold{
@@ -136,13 +136,13 @@ main {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 10px;
 }
 .card-content2{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    margin-bottom: 15px;
 }
 .card-button{
     display: flex;
@@ -159,9 +159,7 @@ main {
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    margin-left: 140px;
-    margin-right: 120px;
-    margin-top: 20px;
+    
 }
 
 .card-menu {
@@ -174,10 +172,9 @@ main {
     height: 620px;
     border-radius: 24px;
     padding: 20px;
-    gap: 0px;
+    gap: 15px;
 
     p {
-        margin: 10px 0 5px 0;
         font-weight: 600;
     }
 }
@@ -227,7 +224,6 @@ main {
     border-radius: 12px;
     color: #09090B;
     font-weight: 400 !important;
-    margin: 0 20px;
 
 }
 
@@ -235,19 +231,18 @@ main {
     width: 22px;
     height: 1px;
     background-color: #E4E4E7;
-    margin: 8px 0;
     transform: rotate(90deg);
 }
 
 .button-search-big{
     display: flex;
-    align-items: left;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     padding: 10px 10px;
-    height: 1000px;
+    height: 300px;
     width: 350px;
-    gap: 3px;
+    gap: 20px;
     background-color: #F4F4F5;
     border-radius: 12px;
     color: #A1A1AA;
@@ -277,6 +272,7 @@ main {
     background-color: #E4E4E7;
     width: 20px;
     height: 20px;
+    border-radius: 5px;
 }
 
 .enum-search {
@@ -298,7 +294,6 @@ main {
     background-color: #FFFFFF;
     background-image: url(../assets/images/Footer.png);
     background-size: 1200px 350px;
-    margin-top: 20px;
 }
 .footer-button{
     display: flex;
@@ -321,7 +316,4 @@ main {
     width: 150px;
     height: 100px;
     gap: 15px;
-}
-.footer-content p{
-    margin: 0px;
 }
